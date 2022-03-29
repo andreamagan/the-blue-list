@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/the-blue-list/static/css/main.a451469a.css",
-    "main.js": "/the-blue-list/static/js/main.602469f8.js",
+    "main.css": "/the-blue-list/static/css/main.54dd94d1.css",
+    "main.js": "/the-blue-list/static/js/main.477aa44e.js",
     "index.html": "/the-blue-list/index.html",
-    "main.a451469a.css.map": "/the-blue-list/static/css/main.a451469a.css.map",
-    "main.602469f8.js.map": "/the-blue-list/static/js/main.602469f8.js.map"
+    "main.54dd94d1.css.map": "/the-blue-list/static/css/main.54dd94d1.css.map",
+    "main.477aa44e.js.map": "/the-blue-list/static/js/main.477aa44e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a451469a.css",
-    "static/js/main.602469f8.js"
+    "static/css/main.54dd94d1.css",
+    "static/js/main.477aa44e.js"
   ]
 }
