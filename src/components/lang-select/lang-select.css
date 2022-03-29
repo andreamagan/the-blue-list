@@ -1,0 +1,25 @@
+.lang-select__container {
+  width: var(--size-12);
+}
+
+.lang-select__options {
+  list-style: none;
+  padding: var(--size-3);
+  position: absolute;
+  border: 1px solid var(--primary-light);
+  width: var(--size-10);
+  z-index: 1;
+  background-color: var(--secondary);
+}
+
+.lang-select__options li {
+  width: 100%;
+  height: var(--size-7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-select__options li:hover {
+  background-color: var(--primary);
+}

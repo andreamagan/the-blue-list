@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "the-blue-list",
+  "author": {"name": "Andrea Magán", "email": "andrea.magan@outlook.com"},
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
+    "material-design-icons": "^3.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",

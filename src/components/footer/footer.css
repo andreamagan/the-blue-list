@@ -1,0 +1,11 @@
+.footer__container {
+  background-color: var(--secondary);
+  color: var(--primary-light);
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-6) var(--size-10);
+}
+
+.link {
+  color: var(--primary-light);
+}

@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <br>
+  The 'Blue' List
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">Una lista de bootcamps y cursos sobre formación tech recopilada por Beatriz Jiménez y Raul Cotrina <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+         alt="Gitter">
+  </a>
+  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-### `npm start`
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ¿Qué puedes hacer?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Filtrar por título u organización.
+- Filtrar hasta un precio máximo.
+- Filtrar por idioma.
+- Seleccionar opciones para comparar.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inicio
 
-### `npm run build`
+Para clonar esta app, necesitarás [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (que viene con [npm](http://npmjs.com)) instalado en tu equipo. Por línea de comandos puedes clonarlo con:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone this repository
+$ git clone https://github.com/((((amitmerchant1990/electron-markdownify))))
+# Go into the repository
+$ cd bootcamp-list
+# Install dependencies
+$ npm install
+# Run the app
+$ npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Esta app usa principalmente:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](http://react.io/)
+- [Node.js](https://nodejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [material-design-icons](https://google.github.io/material-design-icons)
 
-### `npm run eject`
+## Relacionado
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Los datos provienen de [este listado](https://github.com/getmanfred/bootcamps). Si encuentras algún error o hechas en falta alguna formación, puedes abrirles un Pull Request para añadirlo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Soporte
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este es un proyecto para la comunidad, sin ánimo de lucro. Si te ha ayudado a encontrar lo que buscabas o si tienes alguna crítica, puedess escribeme un mail o por twitter.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Email [andrea.magan@outlook.com](mailto:andrea.magan@outlook.com) &nbsp;&middot;&nbsp;
+> Twitter [@AndreaMaganRey](https://twitter.com/AndreaMaganRey)

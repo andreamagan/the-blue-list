@@ -1,0 +1,36 @@
+.main-banner__container {
+  background-color: var(--secondary);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-light);
+}
+
+.main-banner__title {
+  font-family: var(--font-family);
+  color: var(--accent);
+  font-size: var(--size-8);
+}
+
+.main-banner__description {
+  max-width: 500px;
+}
+
+background-color: #e5e5f7;
+opacity: 0.4;
+background: radial-gradient(
+    circle,
+    transparent 20%,
+    #e5e5f7 20%,
+    #e5e5f7 80%,
+    transparent 80%,
+    transparent
+  ),
+  radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent)
+    15px 15px,
+  linear-gradient(#7856ff 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px,
+  linear-gradient(90deg, #7856ff 1.2000000000000002px, #e5e5f7 1.2000000000000002px) -0.6000000000000001px
+    0;
+background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;

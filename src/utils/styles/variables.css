@@ -1,0 +1,46 @@
+
+:root {
+  /* Colors
+   ========================================================================== */
+
+  --primary-light: #f5f5f5;
+  --primary-dark: #232323;
+  --primary: #053a59;
+  --secondary: #021927;
+  --accent: #ff5a5f;
+
+  --gray-50: #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #EEEEEE;
+  --gray-300: #E0E0E0;
+  --gray-400: #BDBDBD;
+  --gray-500: #9E9E9E;
+  --gray-600: #757575;
+  --gray-700: #616161;
+  --gray-800: #424242;
+  --gray-900: #212121;
+
+  /* Sizes
+  ========================================================================== */
+  --size-1: 0.125em;
+  --size-2: 0.225em;
+  --size-3: 0.5em;
+  --size-4: 0.75em;
+  --size-5: 1em;
+  --size-6: 1.5em;
+  --size-7: 2em;
+  --size-8: 2.5em;
+  --size-9: 3em;
+  --size-10: 4em;
+  --size-11: 5em;
+  --size-12: 6em;
+  --size-13: 10em;
+
+  /* Typografy
+    ========================================================================== */
+  --font-base: 12px;
+  --font-family: 'Prata', serif;
+  --font-family-mono: 'Fira Code', Courier, monospace;
+}
+
+

@@ -1,0 +1,16 @@
+.header__container {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: var(--size-5) var(--size-10);
+  background-color: var(--secondary);
+  z-index: 1;
+}
+
+.header__logo {
+  font-family: var(--font-family);
+  color: var(--accent);
+  font-size: var(--size-6);
+}

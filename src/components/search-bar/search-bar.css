@@ -1,0 +1,53 @@
+.search__container {
+  display: inline-flex;
+  justify-content: end;
+}
+
+.search__input__container {
+  padding: var(--size-2) 0;
+  border-bottom: 1px solid var(--primary-light);
+  margin-left: var(--size-5);
+  color: var(--primary-light);
+}
+
+.search__text,
+.search__price {
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: var(--secondary);
+  transition: border-color 0.2s;
+  outline: 0;
+  padding-left: var(--size-6);
+}
+
+.search__text {
+  background: url('/public/search-13-32.png') no-repeat left;
+  background-size: var(--size-5);
+  width: var(--size-12);
+}
+
+.search__price {
+  background-size: var(--size-5);
+  width: var(--size-10);
+  text-align: end;
+}
+
+label {
+  font-size: var(--size-4);
+  position: relative;
+  top: 0;
+}
+
+/*************************** Remove input arrows ***********************/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
