@@ -14,3 +14,14 @@
   color: var(--accent);
   font-size: var(--size-6);
 }
+
+@media (max-width: 600px) {
+  .header__container {
+    flex-direction: column;
+    padding: var(--size-4) var(--size-4);
+  }
+
+  .header__logo {
+    margin-bottom: var(--size-4);
+  }
+}

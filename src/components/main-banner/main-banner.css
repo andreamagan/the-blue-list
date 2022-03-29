@@ -16,4 +16,5 @@
 
 .main-banner__description {
   max-width: 500px;
+  padding: var(--size-8);
 }

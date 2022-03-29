@@ -24,7 +24,7 @@ const LangSelect = ({ handleFilters }: LangSelectProps) => {
 
   return (
     <div className="lang-select__container">
-      <span onClick={() => setOptionsVisibles(!optionsVisibles)}>{lang || 'Idioma'}</span>
+      <div onClick={() => setOptionsVisibles(!optionsVisibles)}>{lang || 'Idioma'}</div>
       {optionsVisibles && (
         <ul className="lang-select__options">
           <li onClick={() => changeLang(null)}>Todos</li>

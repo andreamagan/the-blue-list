@@ -4,6 +4,7 @@
 }
 
 .search__input__container {
+  display: flex;
   padding: var(--size-2) 0;
   border-bottom: 1px solid var(--primary-light);
   margin-left: var(--size-5);
@@ -50,4 +51,21 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+}
+
+@media (max-width: 600px) {
+  .search__container {
+    display: flex;
+    /*  flex-direction: column; */
+    justify-content: start;
+  }
+
+  .search__input__container {
+    margin: var(--size-2);
+  }
+
+  .search__price,
+  .search__text {
+    width: 100%;
+  }
 }
