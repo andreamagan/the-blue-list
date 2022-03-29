@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/the-blue-list/static/css/main.477f7244.css",
+    "main.js": "/the-blue-list/static/js/main.a838ebec.js",
+    "index.html": "/the-blue-list/index.html",
+    "main.477f7244.css.map": "/the-blue-list/static/css/main.477f7244.css.map",
+    "main.a838ebec.js.map": "/the-blue-list/static/js/main.a838ebec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.477f7244.css",
+    "static/js/main.a838ebec.js"
+  ]
+}
