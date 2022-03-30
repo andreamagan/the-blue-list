@@ -1,4 +1,4 @@
-.card__test {
+.card__container {
   font-size: var(--font-base);
   background-color: var(--primary-light);
   border: 1px solid var(--gray-200);
