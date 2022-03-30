@@ -49,8 +49,8 @@ const App = () => {
     return !!filters.text && filters.text.length >= 2
       ? list.filter(
           (bootcamp) =>
-            bootcamp.name.toLowerCase().includes(filters.text) ||
-            bootcamp.organization.toLowerCase().includes(filters.text)
+            bootcamp.name.toLowerCase().includes(filters.text.toLowerCase()) ||
+            bootcamp.organization.toLowerCase().includes(filters.text.toLowerCase())
         )
       : list;
   };
