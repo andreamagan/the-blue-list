@@ -9,3 +9,10 @@
 .link {
   color: var(--primary-light);
 }
+
+@media (max-width: 600px) {
+  .footer__container {
+    flex-direction: column;
+    padding: var(--size-4) var(--size-4);
+  }
+}

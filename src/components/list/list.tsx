@@ -10,7 +10,7 @@ interface ListProps {
 
 const List = ({ list, bookmarks, handleBookmarks }: ListProps) => {
   return (
-    <section className="list__container">
+    <section>
       <div className="bookmarks__container">
         <h1 className="bookmarks__title">
           <span className="material-icons">bookmark_added</span>
@@ -27,18 +27,20 @@ const List = ({ list, bookmarks, handleBookmarks }: ListProps) => {
         )}
       </div>
 
-      {list.length ? (
-        <div className="list__content">
-          {list.map((bootcamp, i) => (
-            <Card bootcamp={bootcamp} key={i} handleBookmark={handleBookmarks} />
-          ))}
-        </div>
-      ) : (
-        <div className="list__no-data">
-          <div className="list__no-data__icon">¯\_( ❛ ₒ ❛ )_/¯</div>
-          <h1>No hemos encontrado nada</h1>
-        </div>
-      )}
+      <div className="list__container">
+        {list.length ? (
+          <div className="list__content">
+            {list.map((bootcamp, i) => (
+              <Card bootcamp={bootcamp} key={i} handleBookmark={handleBookmarks} />
+            ))}
+          </div>
+        ) : (
+          <div className="list__no-data">
+            <div className="list__no-data__icon">¯\_( ❛ ₒ ❛ )_/¯</div>
+            <h1>No hemos encontrado nada</h1>
+          </div>
+        )}
+      </div>
     </section>
   );
 };

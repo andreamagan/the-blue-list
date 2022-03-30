@@ -48,7 +48,7 @@ const Card = ({ bootcamp, handleBookmark }: CardProps) => {
   };
 
   return (
-    <div className="card__test">
+    <div className="card__container">
       <div className="card__bookmark">
         <span className="material-icons" onClick={() => handleBookmark(bootcamp)}>
           {bootcamp.bookmark ? 'bookmark' : 'bookmark_border'}
