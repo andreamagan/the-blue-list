@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--secondary);
+  padding: var(--size-4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button > * {
+  color: var(--primary-light);
+}

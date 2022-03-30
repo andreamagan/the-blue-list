@@ -7,6 +7,8 @@ import { Bootcamp } from './utils/interfaces/bootcamp.interface';
 import { Filters } from './utils/interfaces/filters.interface';
 import { Languages } from './utils/interfaces/languages-flags.interface';
 import { useEffect, useState } from 'react';
+import Button from './components/button/button';
+import { scrollToTop } from './utils/functions/scroll';
 import './App.css';
 
 const App = () => {
@@ -20,6 +22,7 @@ const App = () => {
   const [bookmarks, setBookmarks] = useState<Bootcamp[]>([]);
 
   const [loading, setLoading] = useState<boolean>(true);
+  const [showToTopButton, setShowToTopButton] = useState(false);
 
   useEffect(() => {
     getData();
@@ -79,6 +82,16 @@ const App = () => {
     }
   };
 
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        setShowToTopButton(true);
+      } else {
+        setShowToTopButton(false);
+      }
+    });
+  }, []);
+
   return (
     <div className="app-container">
       <Header handleFilters={(e) => handleFilters(e)} />
@@ -87,6 +100,9 @@ const App = () => {
         <div className="loading">Cargando...</div>
       ) : (
         <List list={filteredBootcampList} bookmarks={bookmarks} handleBookmarks={handleBookmark} />
+      )}
+      {showToTopButton && (
+        <Button icon="arrow_upward" onClick={scrollToTop} className="scroll-top"></Button>
       )}
       <Footer />
     </div>

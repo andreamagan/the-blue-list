@@ -9,3 +9,16 @@
 .loading {
   padding: var(--size-10);
 }
+
+.button.scroll-top {
+  color: var(--primary-light);
+  box-shadow: 0px 2px 6px 2px #2929294f;
+  position: fixed;
+  bottom: var(--size-8);
+  right: var(--size-8);
+  background-color: var(--accent);
+  width: var(--size-10);
+  aspect-ratio: 1/1;
+  border-radius: var(--size-8);
+  border: none;
+}
